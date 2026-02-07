@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1236595</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>337</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1236595</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>337</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_001090866.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytoskeleton protein RodZ [Escherichia] &gt;ref|NP_417011.1| cytoskeleton protein RodZ [Escherichia coli str. K-12 substr. MG1655] &gt;sp|B1XAZ1.1| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli str. K-12 substr. DH10B] &gt;sp|C4ZX91.1| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli BW2952] &gt;sp|P27434.2| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli K-12] &gt;gb|AGX34553.1| cytoskeletal protein required for MreB assembly [synthetic Escherichia coli C321.deltaA] &gt;gb|EEZ9759014.1| cytoskeleton protein RodZ [Escherichia coli O25] &gt;gb|EGU28642.1| cytoskeletal protein RodZ [Escherichia coli XH140A] &gt;gb|ENA0336684.1| cytoskeleton protein RodZ [Escherichia coli O12:H48] &gt;dbj|BAL39272.1| conserved protein [Escherichia coli str. K-12 substr. MDS42] &gt;tpg|HBD6189011.1| cytoskeleton protein RodZ [Shigella flexneri] &gt;tpg|HCB3973511.1| cytoskeleton protein RodZ [Escherichia coli O25b:H4-ST131] &gt;tpg|HDS1989004.1| cytoskeleton protein RodZ [Escherichia coli Bal225]</Hit_def>
+  <Hit_accession>WP_001090866</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>684.1</Hsp_bit-score>
+      <Hsp_score>1764</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>337</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HFV6093724.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HFV6093724</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>683.33</Hsp_bit-score>
+      <Hsp_score>1762</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>337</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLSGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNL+GQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HAW3342859.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HAW3342859</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.559</Hsp_bit-score>
+      <Hsp_score>1760</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPVQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSP Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_111990654.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|AXA09898.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_111990654</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.559</Hsp_bit-score>
+      <Hsp_score>1760</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVASPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAV SPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_433704741.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MGI6912678.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_433704741</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.174</Hsp_bit-score>
+      <Hsp_score>1759</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTETNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTT TNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_113991460.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|RCF39087.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_113991460</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>682.174</Hsp_bit-score>
+      <Hsp_score>1759</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEAMHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEA HDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HFV8229428.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HFV8229428</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGAHLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGA LRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HEI1691068.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HEI1691068</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPASAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPA AVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_218662810.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_218662810</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDXKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_001090844.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytoskeleton protein RodZ [Enterobacteriaceae] &gt;sp|A8A322.1| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli HS] &gt;sp|B1IWE5.1| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli ATCC 8739] &gt;sp|B2TXU1.1| RecName: Full=Cytoskeleton protein RodZ [Shigella boydii CDC 3083-94] &gt;sp|B6I588.1| RecName: Full=Cytoskeleton protein RodZ [Escherichia coli SE11] &gt;gb|AFG41458.1| Helix-turn-helix DNA-binding domain protein [Escherichia coli P12b] &gt;gb|EER4142256.1| cytoskeleton protein RodZ [Escherichia coli O6] &gt;gb|EES8443655.1| cytoskeleton protein RodZ [Escherichia coli O6:H34] &gt;gb|EEW3507394.1| cytoskeleton protein RodZ [Escherichia coli O156:H25] &gt;gb|EEY7937664.1| cytoskeleton protein RodZ [Escherichia coli O20:H9] &gt;gb|EEY7945794.1| cytoskeleton protein RodZ [Escherichia coli H30] &gt;gb|EEZ5634356.1| cytoskeleton protein RodZ [Escherichia coli O86] &gt;gb|EEZ5648601.1| cytoskeleton protein RodZ [Escherichia coli O20] &gt;gb|EEZ5677009.1| cytoskeleton protein RodZ [Escherichia coli O25] &gt;gb|EEZ5694313.1| cytoskeleton protein RodZ [Escherichia coli O65] &gt;gb|EEZ5783173.1| cytoskeleton protein RodZ [Escherichia coli O107] &gt;gb|EEZ5875092.1| cytoskeleton protein RodZ [Escherichia coli O102] &gt;gb|EEZ5985444.1| cytoskeleton protein RodZ [Escherichia coli O78] &gt;gb|EEZ6010017.1| cytoskeleton protein RodZ [Escherichia coli O117] &gt;gb|EEZ6028879.1| cytoskeleton protein RodZ [Escherichia coli O101] &gt;gb|EEZ6032004.1| cytoskeleton protein RodZ [Escherichia coli O21] &gt;gb|EEZ6202771.1| cytoskeleton protein RodZ [Escherichia coli O8] &gt;gb|EEZ6460413.1| cytoskeleton protein RodZ [Escherichia coli O16] &gt;gb|EEZ8949741.1| cytoskeleton protein RodZ [Escherichia coli O35] &gt;gb|EEZ9010065.1| cytoskeleton protein RodZ [Escherichia coli O57:H16] &gt;gb|EEZ9033611.1| cytoskeleton protein RodZ [Escherichia coli O75] &gt;gb|EEZ9697692.1| cytoskeleton protein RodZ [Escherichia coli O1] &gt;gb|EEZ9761257.1| cytoskeleton protein RodZ [Escherichia coli O115] &gt;gb|EFA4035305.1| cytoskeleton protein RodZ [Escherichia coli O120:H10] &gt;gb|EFA4047925.1| cytoskeleton protein RodZ [Escherichia coli O144] &gt;gb|EFA4050824.1| cytoskeleton protein RodZ [Escherichia coli O91:H28] &gt;gb|EFA4053986.1| cytoskeleton protein RodZ [Escherichia coli O38:H26] &gt;gb|EFA4122267.1| cytoskeleton protein RodZ [Escherichia coli O49:H9] &gt;gb|EFA4139111.1| cytoskeleton protein RodZ [Escherichia coli O78:H42] &gt;gb|EFA4164546.1| cytoskeleton protein RodZ [Escherichia coli O70:H25] &gt;gb|EFA4176773.1| cytoskeleton protein RodZ [Escherichia coli O43:H14] &gt;gb|EFA4182208.1| cytoskeleton protein RodZ [Escherichia coli O86:H8] &gt;gb|EFA4186186.1| cytoskeleton protein RodZ [Escherichia coli O128:H42] &gt;gb|EFA4201441.1| cytoskeleton protein RodZ [Escherichia coli O2:H32] &gt;gb|EFA4215066.1| cytoskeleton protein RodZ [Escherichia coli O19:H42] &gt;gb|EFA4220929.1| cytoskeleton protein RodZ [Escherichia coli O151:H8] &gt;gb|EFA4229462.1| cytoskeleton protein RodZ [Escherichia coli O40:H32] &gt;gb|EFA4254501.1| cytoskeleton protein RodZ [Escherichia coli O136:H26] &gt;gb|EFA4303263.1| cytoskeleton protein RodZ [Escherichia coli O19] &gt;gb|EFA4480579.1| cytoskeleton protein RodZ [Escherichia coli O2] &gt;gb|EFA8613268.1| cytoskeleton protein RodZ [Escherichia coli O18:H7] &gt;gb|EFB4107928.1| cytoskeleton protein RodZ [Escherichia coli O53] &gt;gb|EFN6679332.1| cytoskeleton protein RodZ [Escherichia coli O179:H8] &gt;gb|EFN7230750.1| cytoskeleton protein RodZ [Escherichia coli O26:H32] &gt;gb|EFN8410946.1| cytoskeleton protein RodZ [Escherichia coli O7] &gt;gb|EFN8425031.1| cytoskeleton protein RodZ [Escherichia coli O113] &gt;gb|EFN8439510.1| cytoskeleton protein RodZ [Escherichia coli O119] &gt;gb|EFN8444046.1| cytoskeleton protein RodZ [Escherichia coli O5] &gt;gb|EFN8567011.1| cytoskeleton protein RodZ [Escherichia coli O85:H32] &gt;gb|EFN8594690.1| cytoskeleton protein RodZ [Escherichia coli O41:H11] &gt;gb|EFN8597773.1| cytoskeleton protein RodZ [Escherichia coli O79:H40] &gt;gb|EFN8605599.1| cytoskeleton protein RodZ [Escherichia coli O83:H28] &gt;gb|EFN8613946.1| cytoskeleton protein RodZ [Escherichia coli O41:H45] &gt;gb|EFN8619039.1| cytoskeleton protein RodZ [Escherichia coli H8] &gt;gb|EFN8619899.1| cytoskeleton protein RodZ [Escherichia coli O51] &gt;gb|EFN8668451.1| cytoskeleton protein RodZ [Escherichia coli O171] &gt;gb|EFN8705514.1| cytoskeleton protein RodZ [Escherichia coli O79] &gt;gb|EFN8707855.1| cytoskeleton protein RodZ [Escherichia coli O130] &gt;gb|EFO2085778.1| cytoskeleton protein RodZ [Escherichia coli O109] &gt;gb|EFO2112352.1| cytoskeleton protein RodZ [Escherichia coli O106] &gt;gb|EFO2285989.1| cytoskeleton protein RodZ [Escherichia coli O148] &gt;gb|EFO3051603.1| cytoskeleton protein RodZ [Escherichia coli O32] &gt;gb|EFP99073.1| uncharacterized HTH-type transcriptional regulator yfgA [Escherichia coli 1827-70] &gt;gb|EFZ55864.1| hypothetical protein ECLT68_5099 [Escherichia coli LT-68] &gt;gb|EGB66319.1| helix-turn-helix protein [Escherichia coli TA007] &gt;gb|EGX07761.1| hypothetical protein ECG581_2914 [Escherichia coli G58-1] &gt;gb|EHD3361659.1| cytoskeleton protein RodZ [Escherichia coli O124] &gt;gb|EHD3367091.1| cytoskeleton protein RodZ [Escherichia coli O28ac] &gt;gb|EHD3400281.1| cytoskeleton protein RodZ [Escherichia coli O152] &gt;gb|EHD3417700.1| cytoskeleton protein RodZ [Escherichia coli O167] &gt;gb|EHV55331.1| putative membrane protein [Escherichia coli DEC6B] &gt;gb|EHV57110.1| cytoskeleton protein rodZ [Escherichia coli DEC6A] &gt;gb|EHV58959.1| cytoskeleton protein rodZ [Escherichia coli DEC6C] &gt;gb|EHX77873.1| cytoskeleton protein rodZ [Escherichia coli DEC14A] &gt;gb|EID67407.1| putative HTH-type transcriptional regulator yfgA [Escherichia coli W26] &gt;gb|EIH0320372.1| cytoskeleton protein RodZ [Escherichia coli O112] &gt;gb|EIH1078691.1| cytoskeleton protein RodZ [Escherichia coli O163:H38] &gt;gb|EKF2608474.1| cytoskeleton protein RodZ [Escherichia coli O45] &gt;gb|ELF18384.1| cytoskeleton protein rodZ [Escherichia coli KTE156] &gt;gb|EMZ2627992.1| cytoskeleton protein RodZ [Escherichia coli O8:H11] &gt;gb|EMZ7180891.1| cytoskeleton protein RodZ [Escherichia O78:H4] &gt;gb|ENA0319730.1| cytoskeleton protein RodZ [Escherichia coli :H21] &gt;gb|ENA0340913.1| cytoskeleton protein RodZ [Escherichia coli :H49] &gt;gb|ENA0355074.1| cytoskeleton protein RodZ [Escherichia coli O9:H37] &gt;gb|ENA6182930.1| cytoskeleton protein RodZ [Escherichia coli O62/O68:H12] &gt;gb|END0227620.1| cytoskeleton protein RodZ [Escherichia coli O157:H26] &gt;gb|END2856102.1| cytoskeleton protein RodZ [Escherichia coli O16:H2] &gt;gb|ENE1727801.1| cytoskeleton protein RodZ [Escherichia coli O125:H19] &gt;gb|ENE2092951.1| cytoskeleton protein RodZ [Escherichia coli O15:H33] &gt;gb|ENF4751586.1| cytoskeleton protein RodZ [Escherichia coli O18:H49] &gt;gb|ENF5790485.1| cytoskeleton protein RodZ [Escherichia coli O9:H4] &gt;gb|ENF82554.1| cytoskeleton protein rodZ [Escherichia coli P0305260.11] &gt;gb|ENH9021009.1| cytoskeleton protein RodZ [Escherichia coli O4:H45] &gt;gb|ENM4031552.1| cytoskeleton protein RodZ [Escherichia coli O26:H40] &gt;gb|ENO5080232.1| cytoskeleton protein RodZ [Escherichia coli O36:H5] &gt;gb|ENQ6479404.1| cytoskeleton protein RodZ [Escherichia coli O130:H26] &gt;gb|ENQ7310799.1| cytoskeleton protein RodZ [Escherichia coli :H45] &gt;gb|ENR9114940.1| cytoskeleton protein RodZ [Escherichia coli O75:H38/H55] &gt;gb|ENU5864838.1| cytoskeleton protein RodZ [Escherichia coli H48] &gt;gb|ENU5893955.1| cytoskeleton protein RodZ [Escherichia coli O179/8:H45] &gt;gb|ENU6123332.1| cytoskeleton protein RodZ [Escherichia coli O65:H11] &gt;gb|ENY3537819.1| cytoskeleton protein RodZ [Escherichia coli O11:H16,53] &gt;gb|ENY3612349.1| cytoskeleton protein RodZ [Escherichia coli O8:H49] &gt;gb|ENY4260876.1| cytoskeleton protein RodZ [Escherichia coli H9] &gt;gb|ENY4298752.1| cytoskeleton protein RodZ [Escherichia coli O45:H4] &gt;gb|ENY4309679.1| cytoskeleton protein RodZ [Escherichia coli H4] &gt;gb|ENY4313282.1| cytoskeleton protein RodZ [Escherichia coli O101:H9] &gt;gb|ENY4327840.1| cytoskeleton protein RodZ [Escherichia coli O9,9a:H4] &gt;gb|ENY4331059.1| cytoskeleton protein RodZ [Escherichia coli O150:H11] &gt;gb|ENY4347239.1| cytoskeleton protein RodZ [Escherichia coli O8:H21] &gt;gb|EOM3574865.1| cytoskeleton protein RodZ [Escherichia coli O99:H4] &gt;gb|EOM3652298.1| cytoskeleton protein RodZ [Escherichia coli O9,9a:H10] &gt;gb|EOM3657520.1| cytoskeleton protein RodZ [Escherichia coli O101:H10] &gt;gb|EOM3670686.1| cytoskeleton protein RodZ [Escherichia coli O9,9a] &gt;gb|EOM3704109.1| cytoskeleton protein RodZ [Escherichia coli O101,9,9a:H9] &gt;gb|EOM3709895.1| cytoskeleton protein RodZ [Escherichia coli O160:H34] &gt;gb|EOM3727277.1| cytoskeleton protein RodZ [Escherichia coli O101:H45] &gt;gb|EOM3738015.1| cytoskeleton protein RodZ [Escherichia coli O3:H2] &gt;gb|EOM3751039.1| cytoskeleton protein RodZ [Escherichia coli O9,9a:H30] &gt;gb|EOM3782623.1| cytoskeleton protein RodZ [Escherichia coli O11:H4] &gt;gb|EOM3839892.1| cytoskeleton protein RodZ [Escherichia coli O9,9a:H21] &gt;gb|EOM3874427.1| cytoskeleton protein RodZ [Escherichia coli O115:H10] &gt;gb|EOM3908898.1| cytoskeleton protein RodZ [Escherichia coli O148:H32] &gt;gb|EOM3919083.1| cytoskeleton protein RodZ [Escherichia coli O115:H51] &gt;gb|EOM3984509.1| cytoskeleton protein RodZ [Escherichia coli O28ac,42:H7] &gt;gb|EOM3991491.1| cytoskeleton protein RodZ [Escherichia coli O16:H32] &gt;gb|EOM4015172.1| cytoskeleton protein RodZ [Escherichia coli O8:H25] &gt;gb|EOM4114808.1| cytoskeleton protein RodZ [Escherichia coli O140:H48] &gt;gb|EOW5429964.1| cytoskeleton protein RodZ [Escherichia coli O51:H4] &gt;gb|EOW5465713.1| cytoskeleton protein RodZ [Escherichia coli O141,141ab,141ac:H43] &gt;gb|EOW5476629.1| cytoskeleton protein RodZ [Escherichia coli O169] &gt;gb|EOW5483711.1| cytoskeleton protein RodZ [Escherichia coli H32] &gt;gb|EOW5487710.1| cytoskeleton protein RodZ [Escherichia coli O70:H38] &gt;gb|EOW5495923.1| cytoskeleton protein RodZ [Escherichia coli O1:H33] &gt;gb|EOW5511162.1| cytoskeleton protein RodZ [Escherichia coli O26:H10] &gt;gb|EOW5524939.1| cytoskeleton protein RodZ [Escherichia coli O162:H48] &gt;gb|EOW5539004.1| cytoskeleton protein RodZ [Escherichia coli O21:H12] &gt;gb|EOW5543266.1| cytoskeleton protein RodZ [Escherichia coli O5:H32] &gt;gb|EOW5547849.1| cytoskeleton protein RodZ [Escherichia coli O2,50:H32] &gt;gb|EOW5552850.1| cytoskeleton protein RodZ [Escherichia coli O45:H45] &gt;gb|EOW5562726.1| cytoskeleton protein RodZ [Escherichia coli O152:H2] &gt;gb|EOW5567285.1| cytoskeleton protein RodZ [Escherichia coli O1:H32] &gt;gb|EOW5571862.1| cytoskeleton protein RodZ [Escherichia coli O23:H43] &gt;gb|EOW5575986.1| cytoskeleton protein RodZ [Escherichia coli O73,17,77:H31] &gt;gb|EOW5587463.1| cytoskeleton protein RodZ [Escherichia coli H10] &gt;gb|EOW5600799.1| cytoskeleton protein RodZ [Escherichia coli O102:H32] &gt;gb|EOW5605504.1| cytoskeleton protein RodZ [Escherichia coli O70:H10] &gt;gb|EOW5614950.1| cytoskeleton protein RodZ [Escherichia coli O109:H45] &gt;gb|EOW5631677.1| cytoskeleton protein RodZ [Escherichia coli O162:H10] &gt;gb|EOW5655249.1| cytoskeleton protein RodZ [Escherichia coli O112ab:H9] &gt;gb|EOW5666078.1| cytoskeleton protein RodZ [Escherichia coli O13,129,135:H11] &gt;gb|EOW5669843.1| cytoskeleton protein RodZ [Escherichia coli O76:H32] &gt;gb|EOW5682591.1| cytoskeleton protein RodZ [Escherichia coli O187:H4] &gt;gb|EOW5692128.1| cytoskeleton protein RodZ [Escherichia coli O99:H33] &gt;gb|EOW5728984.1| cytoskeleton protein RodZ [Escherichia coli O166:H7] &gt;gb|EOW5740428.1| cytoskeleton protein RodZ [Escherichia coli H45] &gt;gb|EOW5742685.1| cytoskeleton protein RodZ [Escherichia coli O25:H30] &gt;gb|EOW5757082.1| cytoskeleton protein RodZ [Escherichia coli O2,50:H19] &gt;gb|EOW5778177.1| cytoskeleton protein RodZ [Escherichia coli O20:H45] &gt;gb|EOW5779258.1| cytoskeleton protein RodZ [Escherichia coli O109:H4] &gt;gb|EOW5807275.1| cytoskeleton protein RodZ [Escherichia coli O162:H33] &gt;gb|EOW5816486.1| cytoskeleton protein RodZ [Escherichia coli H37] &gt;gb|EOW5829256.1| cytoskeleton protein RodZ [Escherichia coli O8,155:H20] &gt;gb|EOW5855224.1| cytoskeleton protein RodZ [Escherichia coli O8,155:H11] &gt;gb|EOW5925197.1| cytoskeleton protein RodZ [Escherichia coli H20] &gt;gb|EOW5934294.1| cytoskeleton protein RodZ [Escherichia coli O8:H20] &gt;gb|EOW5977501.1| cytoskeleton protein RodZ [Escherichia coli O109:H27] &gt;gb|EOW6129406.1| cytoskeleton protein RodZ [Escherichia coli O13,129, 135:H11] &gt;gb|EOW6238397.1| cytoskeleton protein RodZ [Escherichia coli O9a:H4] &gt;gb|EOX9471961.1| cytoskeleton protein RodZ [Escherichia coli O5:H9] &gt;gb|EPA7247442.1| cytoskeleton protein RodZ [Escherichia coli O9,30:H25] &gt;gb|EPA7296982.1| cytoskeleton protein RodZ [Escherichia coli O123,186:H40] &gt;gb|EPA7309930.1| cytoskeleton protein RodZ [Escherichia coli O45:H8] &gt;gb|EPA7316108.1| cytoskeleton protein RodZ [Escherichia coli O13,21,129,135:H11] &gt;gb|EPA7320611.1| cytoskeleton protein RodZ [Escherichia coli O45:H30] &gt;gb|EPA7325864.1| cytoskeleton protein RodZ [Escherichia coli O1:H27] &gt;gb|EPA7333350.1| cytoskeleton protein RodZ [Escherichia coli O13,129, 135:H26] &gt;gb|EPA7370088.1| cytoskeleton protein RodZ [Escherichia coli O9:H16] &gt;gb|EPC6725301.1| cytoskeleton protein RodZ [Escherichia coli O88:H38] &gt;gb|EPC6734435.1| cytoskeleton protein RodZ [Escherichia coli O127:H40] &gt;gb|EPC6754067.1| cytoskeleton protein RodZ [Escherichia coli O121:H11] &gt;gb|EPC6767593.1| cytoskeleton protein RodZ [Escherichia coli O80:H19] &gt;gb|EPC6997024.1| cytoskeleton protein RodZ [Escherichia coli O10:H26] &gt;gb|EPD0858293.1| cytoskeleton protein RodZ [Escherichia coli O8,13,108,129,135:H11,20] &gt;gb|EPD0892569.1| cytoskeleton protein RodZ [Escherichia coli H11] &gt;gb|EST75258.1| cytoskeletal protein RodZ [Escherichia coli ECA-0157] &gt;gb|EST75457.1| cytoskeletal protein RodZ [Escherichia coli ECA-727] &gt;gb|EYD97839.1| cytoskeleton protein rodZ [Escherichia coli 1-110-08_S4_C3] &gt;gb|EYD99066.1| cytoskeleton protein rodZ [Escherichia coli 1-110-08_S4_C2] &gt;gb|EYE11944.1| cytoskeleton protein rodZ [Escherichia coli 1-110-08_S3_C3] &gt;gb|EYE20387.1| cytoskeleton protein rodZ [Escherichia coli 1-110-08_S3_C2] &gt;gb|EYE23348.1| cytoskeleton protein rodZ [Escherichia coli 1-110-08_S3_C1] &gt;gb|EZA17023.1| cytoskeletal protein RodZ [Escherichia coli O28ac:NM str. 02-3404] &gt;gb|EZJ83448.1| cytoskeleton protein rodZ [Escherichia coli 1-182-04_S3_C2] &gt;gb|KAE9708019.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium TzEc077] &gt;gb|KAE9897378.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium TzEc052] &gt;gb|KAE9907299.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium TzEc051] &gt;gb|MBT9744876.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium MCC505] &gt;gb|MCQ8841133.1| cytoskeleton protein RodZ [Klebsiella sp. KJ_S1] &gt;gb|MEB6030592.1| cytoskeleton protein RodZ [Escherichia coli S88] &gt;gb|MEE6808954.1| cytoskeleton protein RodZ [Escherichia coli O113:H4] &gt;gb|MEE6845555.1| cytoskeleton protein RodZ [Escherichia coli O74:H39] &gt;gb|MEE6877924.1| cytoskeleton protein RodZ [Escherichia coli O126:H19] &gt;gb|MEE6916721.1| cytoskeleton protein RodZ [Escherichia coli O103:H2] &gt;gb|MEE6940526.1| cytoskeleton protein RodZ [Escherichia coli O15:H16] &gt;gb|MEE6951213.1| cytoskeleton protein RodZ [Escherichia coli O87:H39] &gt;gb|MEE6958976.1| cytoskeleton protein RodZ [Escherichia coli O81:H27] &gt;gb|MEE6969409.1| cytoskeleton protein RodZ [Escherichia coli O156:H28] &gt;gb|MEE6972076.1| cytoskeleton protein RodZ [Escherichia coli O28/42:H37] &gt;gb|MEE6990007.1| cytoskeleton protein RodZ [Escherichia coli :H25] &gt;gb|MEE6996668.1| cytoskeleton protein RodZ [Escherichia coli O93:H21] &gt;gb|MEE7031704.1| cytoskeleton protein RodZ [Escherichia coli O45:H16] &gt;gb|MEE7041273.1| cytoskeleton protein RodZ [Escherichia coli O79:H4] &gt;gb|MEE7045619.1| cytoskeleton protein RodZ [Escherichia coli O93:H19] &gt;gb|MEE7054181.1| cytoskeleton protein RodZ [Escherichia coli O83:H32] &gt;gb|MEE7130942.1| cytoskeleton protein RodZ [Escherichia coli O175:H26] &gt;gb|MEE7135546.1| cytoskeleton protein RodZ [Escherichia coli O16:H16] &gt;gb|MEE7163536.1| cytoskeleton protein RodZ [Escherichia coli O149:H2] &gt;gb|MEE7192725.1| cytoskeleton protein RodZ [Escherichia coli O110:H10] &gt;gb|MEE7213248.1| cytoskeleton protein RodZ [Escherichia coli O4:H2] &gt;gb|MEE7227605.1| cytoskeleton protein RodZ [Escherichia coli O6:H10] &gt;gb|MEE7246807.1| cytoskeleton protein RodZ [Escherichia coli :H10] &gt;gb|MEE7289576.1| cytoskeleton protein RodZ [Escherichia coli :H14] &gt;gb|MEE7321085.1| cytoskeleton protein RodZ [Escherichia coli B12:H39] &gt;gb|MEE7361464.1| cytoskeleton protein RodZ [Escherichia coli O103:H43] &gt;gb|MSS05071.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium] &gt;gb|MVW42022.1| cytoskeleton protein RodZ [Enterobacteriaceae bacterium TzEc013] &gt;gb|OAF93625.1| Cytoskeleton protein rodZ [Escherichia coli PCN009] &gt;gb|OSK38757.1| putative membrane protein [Escherichia coli E267] &gt;gb|OSL71963.1| putative membrane protein [Escherichia coli TA008] &gt;gb|XGI80069.1| cytoskeleton protein RodZ [Enterobacter hormaechei] &gt;emb|CCK47805.1| putative membrane protein [Escherichia coli chi7122] &gt;emb|CDK72196.1| FIG021952: putative membrane protein [Klebsiella pneumoniae IS22] &gt;emb|CDK82349.1| FIG021952: putative membrane protein [Escherichia coli IS25] &gt;emb|SSF95065.1| cytoskeleton protein rodZ [Klebsiella pneumoniae] &gt;tpg|HAJ6401521.1| cytoskeleton protein RodZ [Escherichia coli HVH 101 (4-6859844)] &gt;tpg|HBP1536916.1| cytoskeleton protein RodZ [Escherichia coli str. K-12 substr. MG1655star] &gt;tpg|HCA6860466.1| cytoskeleton protein RodZ [Escherichia coli O21:H2] &gt;tpg|HCC7244323.1| cytoskeleton protein RodZ [Escherichia coli O141:H32] &gt;tpg|HDM0071088.1| cytoskeleton protein RodZ [Escherichia coli O8:H9] &gt;tpg|HDQ6467506.1| cytoskeleton protein RodZ [Escherichia coli O11 str. Bi632-42] &gt;tpg|HDQ6529811.1| cytoskeleton protein RodZ [Escherichia coli O75:H8] &gt;tpg|HDQ6555155.1| cytoskeleton protein RodZ [Escherichia coli O103:H25] &gt;tpg|HDQ6567231.1| cytoskeleton protein RodZ [Escherichia coli Ou:H7] &gt;tpg|HDQ6584703.1| cytoskeleton protein RodZ [Escherichia coli O187:H28] &gt;tpg|HDQ6664892.1| cytoskeleton protein RodZ [Escherichia coli O166:H28] &gt;tpg|HDQ6699264.1| cytoskeleton protein RodZ [Escherichia coli O174:H8] &gt;tpg|HDQ6702618.1| cytoskeleton protein RodZ [Escherichia coli Ou:H26] &gt;tpg|HDQ6985435.1| cytoskeleton protein RodZ [Escherichia coli O113:H21] &gt;tpg|HDR9822816.1| cytoskeleton protein RodZ [Escherichia coli C186-61 (10h)] &gt;tpg|HDR9858477.1| cytoskeleton protein RodZ [Escherichia coli O10 str. Bi8337-41] &gt;tpg|HDS1974997.1| cytoskeleton protein RodZ [Escherichia coli O145:NM str. 2012C-4480] &gt;tpg|HDS1980042.1| cytoskeleton protein RodZ [Escherichia coli O145:NM str. 2012C-4479] &gt;tpg|HDS1984447.1| cytoskeleton protein RodZ [Escherichia coli O145:NM str. 2012C-4478] &gt;tpg|HDS1993950.1| cytoskeleton protein RodZ [Escherichia coli O145:NM str. 2012C-4474] &gt;tpg|HDS1999336.1| cytoskeleton protein RodZ [Escherichia coli O145:NM str. 2012C-4477] &gt;tpg|HEO8427370.1| cytoskeleton protein RodZ [Escherichia coli 902034 (7b)] &gt;tpg|HGY6471280.1| cytoskeleton protein RodZ [Escherichia coli Nissle 1917]</Hit_def>
+  <Hit_accession>WP_001090844</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_208460761.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_208460761</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.789</Hsp_bit-score>
+      <Hsp_score>1758</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTSDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATT DGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_282998227.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MDI7031126.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MDI7079400.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HAL1226592.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_282998227</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAIVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNA+VSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|EGM6339954.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EHV2500034.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EIA0251255.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EJO5320065.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|ELP5072190.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EGM6339954</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDYKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_218349056.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EPB9959529.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MBV6908504.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MCB4449581.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HIA0057085.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_218349056</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAIDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPA+DPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EIC3105968.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MBB9272116.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HGX0248099.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EIC3105968</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQIARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQ+ARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|EEW1533102.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EEW1533102</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPSDLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAP+DLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_225089300.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HAX3806827.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_225089300</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKMFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKK+FSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>tpg|HAZ7277566.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HAZ7277566</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGSAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDG+APLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_150328109.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;dbj|GEI30222.1| cytoskeletal protein RodZ [Escherichia coli O145:H28]</Hit_def>
+  <Hit_accession>WP_150328109</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVSPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKV+PMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_112978931.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_112978931</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAIQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAA+QIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_440228378.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EEZ8066974.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFG5822004.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFH7399292.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFK1978498.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFK4484242.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_440228378</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEITDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLE+TDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|MDD9135327.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>MDD9135327</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARMRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGAR+RNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_032237069.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EOM3717647.1| cytoskeleton protein RodZ [Escherichia coli H20] &gt;tpg|HCS1422982.1| cytoskeleton protein RodZ [Shigella sonnei] &gt;gb|EFF9654514.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFI7891415.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EGE1308929.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_032237069</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKISTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLK+STVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_236494481.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCP3588806.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_236494481</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQSGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQ+GVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_220415075.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFP2220776.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MBW9434555.1| cytoskeleton protein RodZ [Escherichia coli] &gt;dbj|BEB93155.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_220415075</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANIDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQAN+DTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|EFU9188113.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EFU9188113</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAIAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQA+AERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|EPB9350942.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EPB9350942</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPSVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTP+VTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|EPZ2386267.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EPZ2386267</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNSEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLN+EQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>tpg|HCN7412085.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCN7503520.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCN8883951.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCN9386695.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCO0547539.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HCN7412085</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKIAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAK+APMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>tpg|HDT6136619.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HDT6136619</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWMVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTW+VLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_001090865.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EGW90538.1| hypothetical protein ECSTECDG1313_3548 [Escherichia coli STEC_DG131-3] &gt;gb|EEV0921785.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EEX3417065.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EEY2034948.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EEY5986895.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_001090865</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMSDQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTM+DQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_111962829.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;emb|SQO20060.1| putative regulatory protein [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_111962829</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVISPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAV+SPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>tpg|HCS5000474.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCS5149738.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCS5154567.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCS5441693.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HCS5460780.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HCS5000474</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTASTPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTA+TPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|EFN5805727.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EFN5805727</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDSTGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTD+TGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|EEZ6104323.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli O86] &gt;tpg|HCP7766561.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HFJ6983926.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EEZ6104323</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPIDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKP+DLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|EFA4196278.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli O132]</Hit_def>
+  <Hit_accession>EFA4196278</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSIPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQS+PLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_068866727.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EHN2275100.1| cytoskeleton protein RodZ [Shigella sonnei] &gt;gb|EFH1579594.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFH3954995.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EFO0655143.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EIH0309809.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_068866727</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTIRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVST+RDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|EGO9924713.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EGO9965001.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EPX6847866.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MBB8341936.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EGO9924713</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLIHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARL+HIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>tpg|HDQ1634363.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HDQ1634363</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPSPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATP+PTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|WP_222898787.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EPC7129307.1| cytoskeleton protein RodZ [Escherichia coli H9] &gt;gb|EFH4121800.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EHH7551786.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EHK9033643.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EHP6094214.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_222898787</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.404</Hsp_bit-score>
+      <Hsp_score>1757</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAEMSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAE+SSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>tpg|HHJ2811283.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>HHJ2811283</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGLAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTG APYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_257253037.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HDN1476365.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HEI2262463.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_257253037</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRYIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSR+IRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_197939820.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|QPR14522.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HAH8871273.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_197939820</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEAITTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEA+TTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|MDA4633542.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>MDA4633542</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKEAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEK+APLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|ELM1837140.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>ELM1837140</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTETPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNT+TPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|MCK2636389.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|MGT7986949.1| cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HFI6273210.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>MCK2636389</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTINAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLT+NAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|ENC2048378.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;tpg|HAU9358413.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>ENC2048378</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPMADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTP+ADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gb|MDC9086721.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>MDC9086721</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGEAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTG+APYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|EEX8825061.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EJK8593630.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EJK8860490.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EJT1372459.1| cytoskeleton protein RodZ [Escherichia coli] &gt;gb|EJT1396694.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>EEX8825061</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>335</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDHKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQAPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQD KAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQ+PAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_114447177.1|</Hit_id>
+  <Hit_def>cytoskeleton protein RodZ [Escherichia coli] &gt;gb|RCZ60301.1| cytoskeleton protein RodZ [Escherichia coli]</Hit_def>
+  <Hit_accession>WP_114447177</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>681.019</Hsp_bit-score>
+      <Hsp_score>1756</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>336</Hsp_identity>
+      <Hsp_positive>336</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSGAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_qseq>
+      <Hsp_hseq>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLSCAWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_hseq>
+      <Hsp_midline>MNTEATHDQNEALTTGARLRNAREQLGLSQQAVAERLCLKVSTVRDIEEDKAPADLASTFLRGYIRSYARLVHIPEEELLPGLEKQAPLRAAKVAPMQSFSLGKRRKKRDGWLMTFTWLVLFVVIGLS AWWWQDRKAQQEEITTMADQSSAELSSNSEQGQSVPLNTSTTTDPATTSTPPASVDTTATNTQTPAVTAPAPAVDPQQNAVVSPSQANVDTAATPAPTAATTPDGAAPLPTDQAGVTTPVADPNALVMNFTADCWLEVTDATGKKLFSGMQRKDGNLNLTGQAPYKLKIGAPAAVQIQYQGKPVDLSRFIRTNQVARLTLNAEQSPAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992672285</Statistics_db-num>
+      <Statistics_db-len>377385951225</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
