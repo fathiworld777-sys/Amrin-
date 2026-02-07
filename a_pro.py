@@ -35,14 +35,12 @@ else:
 
 
 #Step 4: Homology Search (BLAST)
-"""
 
 result_handle = NCBIWWW.qblast("blastp", "nr", record.seq)
 
 with open("blast_results.xml", "w") as out_b:
     out_b.write(result_handle.read())
 
-"""
 print("BLAST search complete. Results saved to blast_results.xml")
 
 with open("blast_results.xml") as b:
@@ -119,4 +117,5 @@ print(record.seq)
 # Sequence similarity to proteins with known domains.
 # Gene neighborhood or operon context in E. coli.
 # Structural predictions suggesting possible binding or catalytic roles.
+
 #But, concrete experimental data (e.g., knockout studies, assays) is needed for confirmation.
